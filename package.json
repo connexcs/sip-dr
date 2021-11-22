@@ -1,0 +1,28 @@
+{
+  "name": "sip-dr",
+  "version": "1.0.0",
+  "description": "SIP Doctor",
+  "main": "dr.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "bnf": "^1.0.1",
+    "moment": "^2.29.1",
+    "sip-parsing": "^1.1.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connexcs/sip-dr.git"
+  },
+  "author": "Jonathan Hulme <jhulme@connexcs.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connexcs/sip-dr/issues"
+  },
+  "homepage": "https://github.com/connexcs/sip-dr#readme"
+}
