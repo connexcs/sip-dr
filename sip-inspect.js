@@ -1,5 +1,4 @@
-const fs = require('fs');
-const rfc3261bnf = '' + fs.readFileSync('./rfc3261.bnf.txt') + fs.readFileSync('./rfc2806.bnf.txt');
+const rfc3261bnf = require('./rfc3261.bnf.json');
 
 const Msg = require('./msg/core');
 const sip_parsing = require('sip-parsing');
