@@ -15,7 +15,7 @@ module.exports = class Invite extends Msg {
 		const provReply = this.provisionalReply();
 		if (provReply && provReply.length > 0) {
 			this.facts.push({message: 'INVITE has a provisional reply'});
-			this.facts.push({message: `INVITE <-> ACK (First Reply) Latency is ` + provReply[1].moment.diff(this.moment, 'milliseconds') + `ms`});
+			this.facts.push({message: `INVITE <-> ACK (First Reply) Latency is ` + provReply[0].moment.diff(this.moment, 'milliseconds') + `ms`});
 		} else {
 			this.facts.push({message: 'INVITE does not have a provisional reply'});
 		}
